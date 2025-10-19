@@ -1,0 +1,112 @@
+/* Mobile first: default extra-small screen */
+body {
+    margin: .5rem;
+    background-color: #93b8d7;
+    color: white;
+}
+
+/* Navigation icon */
+#hamburger-menu a,
+#social-media a {
+  color: white;
+  font-size: 2.5rem;
+  margin-right: .5em;
+}
+
+/* Hide social media links on extra-small screens */
+#social-links {
+  display: none;
+}
+
+/* Main content */
+main {
+  text-align: center;
+  font-family: 'Kaushan Script', fantasy;
+  margin-top: 23vh;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2em;
+}
+
+/* Hide footer on extra-small screens */
+footer {
+  display: none;
+}
+
+/* Small screens - 598px and up */
+@media (min-width: 598px) {
+  
+    /* Hide hamburger menu */
+  #hamburger-menu {
+    display: none;
+  }
+
+  /* Show social media links */
+  #social-links {
+    display: block;
+  }
+}
+
+/* Medium screens - 768px and up */
+@media (min-width: 768px) {
+  /* Make html full height for background image */
+  html {
+    height: 100%;
+  }
+
+  /* Add background image */
+  body {
+    background-image: url('../img/splash-md.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* Add text shadow for readability */
+  main {
+    text-shadow: 1px 1px #153c43;
+  }
+
+  /* Show and position footer */
+  footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+/* Large screens - 992px and up */
+@media (min-width: 992px) {
+  /* Higher resolution background image */
+  body {
+    background-image: url('../img/splash-lg.jpg');
+  }
+
+  /* Smaller navigation icons for mouse users */
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  /* Larger text sizes */
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Extra-large screens - 1200px and up */
+@media (min-width: 1200px) {
+  /* Very high resolution background image */
+  body {
+    background-image: url('../img/splash-xl.jpg');
+  }
+}

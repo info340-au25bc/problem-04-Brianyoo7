@@ -4,7 +4,7 @@ In this exercise, you'll practice using **media queries** to create responsive w
 
 To complete the exercise, you will need to add rules to the included `css/style.css` file in order to style the `index.html` file so that it has has the following responsive appearance:
 
-- On extra-small screens (less than `598px` in width):
+- On extra-small screens (less than `598px` in width): 
 
     ![Example of completed exercise on extra-small screen](img/example-xs-preview.png)
 
