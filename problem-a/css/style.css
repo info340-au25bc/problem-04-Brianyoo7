@@ -1,13 +1,14 @@
-/* Mobile first: default extra-small screen */
+/* Mobile-first: Extra-small screens (default) */
+
 body {
-    margin: .5rem;
-    background-color: #93b8d7;
-    color: white;
+  margin: .5rem;
+  background-color: #93b8d7;
+  color: white;
 }
 
-/* Navigation icon */
+/* Navigation icon links */
 #hamburger-menu a,
-#social-media a {
+#social-links a {
   color: white;
   font-size: 2.5rem;
   margin-right: .5em;
@@ -41,8 +42,7 @@ footer {
 
 /* Small screens - 598px and up */
 @media (min-width: 598px) {
-  
-    /* Hide hamburger menu */
+  /* Hide hamburger menu */
   #hamburger-menu {
     display: none;
   }
